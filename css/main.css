@@ -1,0 +1,94 @@
+{outline: 1px solid red;}
+.index
+{
+    margin: 0px 0px 60px 0px;
+}
+body{
+      background: url(../img/gii.png);
+      background-color: #F3F1F1;
+}
+
+.container-fondo
+{
+   
+    height: 400px;
+    background: url(../img/imagen_1.jpg);
+    
+}
+
+.container-fondo h1
+{color: white;
+font-size: 50px;}
+
+
+/**.about-me**/
+.about-me .biografia img {
+  float: left;
+  width: 200px;
+  margin-right: 20px; 
+  ; 
+  }
+
+.about-me {
+  padding: 20px 80px; }
+
+.about-me p {
+  font-size: 20px;
+  line-height: 1.5; }
+
+
+  .about-wi
+{
+  
+    margin-top: 50px;
+    margin-right: 120px;
+    margin-left: 120px;
+   border:5px dashed #18BC9C;
+  }
+
+  /**hasbiliades**/
+
+  .habilidades .habilidades2 img {
+  float: left;
+  width: 200px;
+  margin-right: 20px; 
+  ; 
+  }
+
+.habilidades {
+  padding: 20px 80px; }
+
+.habilidades p {
+  font-size: 20px;
+  line-height: 1.5; }
+
+
+  .habilidades-wi
+{
+  
+    margin-top: 50px;
+    margin-right: 120px;
+    margin-left: 120px;
+   border:5px dashed rgba(243, 156, 18, 0.42);
+  }
+
+/**skill**/
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 3px 30px 2px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+}
