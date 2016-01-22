@@ -1,24 +1,72 @@
-{outline: 1px solid red;}
+
 .index
 {
     margin: 0px 0px 60px 0px;
 }
 body{
-      background: url(../img/gii.png);
-      background-color: #F3F1F1;
+      background: url(../img/gi.png);
+  
 }
 
+p
+{
+  font-family: 'Coming Soon', cursive;
+}
+
+/****   MENU   *****/
+.navbar-default {
+    background-color: rgba(39, 97, 154, 0.74);
+    border-color: transparent;
+  }
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    font-family: 'Coming Soon', cursive;
+    font-size: 20px;
+}
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #0E0C0E;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: #3772B3;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-family: 'Coming Soon', cursive;
+    font-size: 26px;
+}
+
+
+
+/****   fondo *****/
 .container-fondo
 {
    
     height: 400px;
-    background: url(../img/imagen_1.jpg);
+    background: url(../img/globoo.jpg);
     
 }
 
 .container-fondo h1
-{color: white;
-font-size: 50px;}
+{color: black;
+font-size: 80px;
+font-family: Pacifico;
+}
+
+.container-fondo p
+{
+color: #6F6969;
+font-size: 35px;
+font-family: Pacifico;
+text-shadow: 5px 5px 5px white;
+}
+
+
 
 
 /**.about-me**/
@@ -26,7 +74,7 @@ font-size: 50px;}
   float: left;
   width: 200px;
   margin-right: 20px; 
-  ; 
+  
   }
 
 .about-me {
@@ -37,14 +85,28 @@ font-size: 50px;}
   line-height: 1.5; }
 
 
-  .about-wi
+  .texto
 {
   
-    margin-top: 50px;
+  padding-top: 40px;
     margin-right: 120px;
     margin-left: 120px;
-   border:5px dashed #18BC9C;
+
+ padding: 10px 30px; 
+  border: #18BC9C 5px solid; 
+  border-top-left-radius: 20px; 
+  border-bottom-right-radius: 20px; 
+  
   }
+
+  .about-me h3
+  {
+    font-family: 'Coming Soon', cursive;
+    text-transform: uppercase;
+
+  }
+
+
 
   /**hasbiliades**/
 
@@ -52,11 +114,19 @@ font-size: 50px;}
   float: left;
   width: 200px;
   margin-right: 20px; 
-  ; 
+  
   }
 
 .habilidades {
   padding: 20px 80px; }
+  
+  .habilidades h3
+  {
+    font-family: 'Coming Soon', cursive;
+    text-transform: uppercase;
+
+  }
+  }
 
 .habilidades p {
   font-size: 20px;
@@ -66,13 +136,8 @@ font-size: 50px;}
   .habilidades-wi
 {
   
-    margin-top: 50px;
-    margin-right: 120px;
-    margin-left: 120px;
-   border:5px dashed rgba(243, 156, 18, 0.42);
+  background: url(../img/habilidades.jpg);
   }
-
-/**skill**/
 
 .progress {
     position: relative;
@@ -91,4 +156,69 @@ font-size: 50px;}
     right: 0px;
     font-weight: 800;
     padding: 3px 10px 2px;
+}
+
+
+/**skill**/
+
+ #portafolio img {
+  float: left;
+  width: 300px;
+  margin-right: 20px; 
+  
+  }
+
+.portafolio-me {
+  padding: 20px 80px; }
+
+.portafolio-me p {
+  font-size: 20px;
+  line-height: 1.5; }
+
+  .portafolio-me h3
+  {
+    font-family: 'Coming Soon', cursive;
+    text-transform: uppercase;
+
+  }
+
+.portafolio-wi
+{
+  background: url(../img/portafolio3.jpg);
+  height: 500px;
+}
+
+
+
+
+
+
+.fotos
+
+{
+
+text-align: center; 
+margin: 30px 30px 30px 0px;
+}
+
+
+
+.fotos img
+{
+  height: 300px;
+  width: 400px;
+  border-radius: 20%;
+  width: 180px;
+  margin-right: 15px;
+  border:3px solid #555;
+  padding: 5px;
+}
+.list-portfolio a:hover{
+    text-decoration: none;
+    color:#F7BE81;
+    transform: scale(1.2)
+}
+.list-portfolio li{
+  display: inline-block;
+  margin-right: 20px;
 }
