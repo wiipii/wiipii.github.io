@@ -6,7 +6,6 @@
 body{
        background-color: #EBF1F1;
   background:url(../img/si.jpg);
-
   opacity: 0.1px;
 }
 
@@ -24,7 +23,7 @@ body{
     color: #ffffff;
    font-family: 'Bitter', serif;
     font-size: 20px;
-}
+
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
@@ -252,21 +251,15 @@ margin: 30px 30px 30px 0px;
 .contactame-wi
 {
   background-color:#F3F0F0;
-  height: 500px;
+  height: 455px;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
-@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
-@import url(http://weloveiconfonts.com/api/?family=entypo);
+
 /* entypo */
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
 
-html, body {
-  margin: 0;
-  background-color: #74d4b3;
-}
 
 section #services {
   text-align: center;
@@ -306,13 +299,22 @@ section #services li span {
   height: 20px;
   display: block;
   padding: 15px 0px;
-  color: #fff;
-  font-family: 'Advent Pro', sans-serif;
+  color: #128f76;
+   font-family: 'Bitter', serif;
   text-transform: uppercase;
   font-size: 1.2em;
   text-align: center;
 }
 
+.futerr
+{
+  background-color: #262727;
+  height: 100px;
+}
+
+.futerr h4
+{
+color:   #128F76;
+}
 
 
-  
